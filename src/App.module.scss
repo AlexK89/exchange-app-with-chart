@@ -1,0 +1,18 @@
+.app {
+  background: linear-gradient(45deg, #3861a7 30%, #3d4e94);
+  padding: 2em;
+  max-width: 800px;
+  margin: 3em auto;
+  border-radius: 1em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+  .convertedValue {
+    text-align: center;
+    font-size: 4em;
+    color: #ececec;
+
+    span {
+      font-size: 0.5em;
+    }
+  }
+}
